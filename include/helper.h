@@ -1,0 +1,14 @@
+int string_compare(char *s1, char *s2);
+int string_to_int(char *str);
+int get_frequencies();
+void display_nodes();
+void display_node_pointers();
+int build_tree();
+void trace_back();
+void post_order_traversal(NODE *root, unsigned char *buffer, int *count);
+void emitBit(int bit, unsigned char *buffer, int *count);
+void dfs(NODE *root);
+void encode(unsigned char *buffer, int *count, int weight);
+void trace_back_encode(unsigned char c);
+void dfs_clear(NODE *root);
+int dfs_assign_value(NODE *root);
